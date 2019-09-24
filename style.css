@@ -6,6 +6,7 @@ body {
     background: paleturquoise;
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
+    text-transform: capitalize; 
 }
 
 .container { 
@@ -25,6 +26,8 @@ button {
     border-radius: 8px;
     border: 3px solid paleturquoise;
     outline: none;
+    text-transform: capitalize; 
+
 }
 button:hover {
     opacity: 0.8;
@@ -47,5 +50,6 @@ input[type=text]:focus {
 #messageOut {
     margin: 0.5rem 0;
     color: paleturquoise;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
